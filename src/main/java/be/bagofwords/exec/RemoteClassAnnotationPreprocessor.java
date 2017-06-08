@@ -1,14 +1,7 @@
 package be.bagofwords.exec;
 
-import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.Tree;
 import com.sun.source.util.TreePath;
-import com.sun.source.util.TreePathScanner;
 import com.sun.source.util.Trees;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.TreeTranslator;
 
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.ProcessingEnvironment;
@@ -17,7 +10,6 @@ import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
-import javax.tools.JavaFileObject;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
