@@ -33,6 +33,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.github.koendeschacht</groupId>
+            <artifactId>bow-utils</artifactId>
+            <version>master-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>com.sun</groupId>
             <artifactId>tools</artifactId>
             <version>1.8</version>
